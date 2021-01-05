@@ -1,5 +1,7 @@
 .Table {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
+  border: 1px solid black;
+  border-collapse: collapse;
   &-Header,
   &-Body {
     display: block;
@@ -10,17 +12,18 @@
     overflow: auto;
   }
   &-Row {
-    width: 200px;
     display: block;
   }
   &-Heading,
   &-Cell {
-    width: 75px;
+    width: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .Table {
-    margin-top: 0;
+    margin: 0 0 0 20px;
   }
 }
