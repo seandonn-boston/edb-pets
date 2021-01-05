@@ -1,13 +1,6 @@
 import "./Input.scss";
 
-export const Input = ({
-  type,
-  name,
-  value,
-  handleChange,
-  placeholder,
-  handleClick,
-}) => (
+export const Input = ({ type, name, value, handleChange, placeholder }) => (
   <input
     className="Input"
     type={type}
@@ -15,6 +8,5 @@ export const Input = ({
     value={value}
     onChange={handleChange}
     placeholder={placeholder}
-    onClick={handleClick}
   />
 );

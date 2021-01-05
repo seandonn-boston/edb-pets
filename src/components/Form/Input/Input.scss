@@ -1,0 +1,7 @@
+.Input {
+  margin-top: 8px;
+  padding: 4px;
+  &[type="submit"] {
+    margin-top: 12px;
+  }
+}
